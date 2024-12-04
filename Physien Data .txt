@@ -1,0 +1,25 @@
+INSERT INTO `final-attempt_patient_management`.physician_roles (physician_id, roles)
+VALUES
+(1, 'PHYSICIAN'),
+(2, 'PHYSICIAN'),
+(3, 'PHYSICIAN'),
+(4, 'PHYSICIAN'),
+(5, 'PHYSICIAN'),
+(6, 'PHYSICIAN'),
+(7, 'PHYSICIAN'),
+(8, 'PHYSICIAN'),
+(9, 'PHYSICIAN'),
+(10, 'PHYSICIAN'); 
+
+INSERT INTO `final-attempt_patient_management`.physician (full_name, specialty, location, consultation_fee, email)
+VALUES
+('Dr. Rajesh Kumar', 'Cardiology', 'Delhi', 1000.00, 'anmoljain8847@gmail.com'),
+('Dr. Priya Sharma', 'Dermatology', 'Mumbai', 800.00, 'priyasharma@example.com'),
+('Dr. Arun Reddy', 'Orthopedics', 'Bangalore', 1200.00, 'arunreddy@example.com'),
+('Dr. Anjali Verma', 'Cardiology', 'Kolkata', 1100.00, 'anjaliverma@example.com'),
+('Dr. Sandeep Joshi', 'Dermatology', 'Chennai', 900.00, 'sandeepjoshi@example.com'),
+('Dr. Neha Gupta', 'Orthopedics', 'Hyderabad', 1300.00, 'nehagupta@example.com'),
+('Dr. Vikram Singh', 'Cardiology', 'Mumbai', 1050.00, 'vikramsingh@example.com'),
+('Dr. Meera Desai', 'Dermatology', 'Delhi', 850.00, 'meeradesai@example.com'),
+('Dr. Deepak Sharma', 'Orthopedics', 'Pune', 1100.00, 'deepaksharma@example.com'),
+('Dr. Ritu Patel', 'Cardiology', 'Ahmedabad', 1150.00, 'ritupatel@example.com');
